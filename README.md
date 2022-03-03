@@ -1,2 +1,2 @@
 # microservices-blog
-Udemy Course: Microservices built with Node, React, Docker and Kubernetes
+Udemy Course: Microservices with Node JS and React
