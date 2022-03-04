@@ -1,0 +1,28 @@
+{
+  "name": "comments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpeters13/microservices-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpeters13/microservices-blog/issues"
+  },
+  "homepage": "https://github.com/mpeters13/microservices-blog#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
