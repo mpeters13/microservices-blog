@@ -12,3 +12,7 @@ services:
     build: ../query
     ports:
       - "4002:4002"
+  moderation:
+    build: ../moderation
+    ports:
+      - "4003:4003"

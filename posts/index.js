@@ -22,13 +22,16 @@ app.post('/posts', (req, res) => {
     posts.push(newPost);
 
     // send post
-    axios.post('http://event-bus-srv:4005/events', {
-        type: 'PostCreated',
-        data: newPost
-    }).catch((err) => console.log(err));
+//    axios.post('http://event-bus-srv:4005/events', {
+//        type: 'PostCreated',
+//        data: newPost
+//    }).catch((err) => console.log(err));
 
     // log current store
     console.log(newPost);
+
+
+
 
     // send response
     res.status(201).send(posts);
